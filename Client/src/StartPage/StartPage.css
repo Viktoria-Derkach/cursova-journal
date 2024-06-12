@@ -1,0 +1,190 @@
+
+.window {
+    background-image: url('startpage.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.window h1 {
+    color: white;
+    margin-top: 80px;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    animation-name: animOpen;
+    animation-duration: 0.7s;
+}
+
+@keyframes animOpen {
+    from {
+        scale: 0;
+        transform: rotate(-180deg);
+    }
+
+    to {
+        scale: 100%;
+        transform: rotate(-0);
+
+    }
+}
+
+@keyframes animOpenBox {
+  from {
+      margin-bottom: 10px;
+  }
+
+  to {
+      margin-bottom: 120px;
+
+  }
+}
+
+#open {
+    z-index: 1;
+    border: 3px solid rgb(0, 215, 0);
+    box-shadow: 0 0 25px rgb(0, 215, 0);
+    color: rgb(0, 215, 0);
+    font-size: 10px;
+}
+
+#close {
+    z-index: 1;
+    border: 3px solid rgb(0, 166, 255);
+    color: rgb(0, 166, 255);
+    transition: 0.2s;
+}
+
+#close:hover {
+    color: red;
+    border: 3px solid red;
+    box-shadow: none;
+}
+
+#head {
+  width:300px;
+}
+
+
+.box{
+  margin: auto;
+  position: relative;
+  width: 380px;
+  height: 420px;
+  border: 2px solid black;
+  border-radius: 8px;
+  inset: 2px;
+
+  background-color: #28292d;
+  z-index: 10;
+  padding: 40px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  9px 9px 15px #5e5e5e,
+             -9px -9px 15px #28292d;
+  margin-bottom: 120px;
+  animation-name: animOpenBox;
+    animation-duration: 0.7s;
+}
+.box h2{
+  color: #45f3ff;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+.inputBox{
+  position: relative;
+  width: 300px;
+  margin-top: 25px;
+  
+}
+.inputBox input{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: 2px solid #23242a;
+  color: #45f3ff;
+  font-size: 1.5em;
+  z-index: 2;
+}
+.inputBox label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(10px, 10px);
+  transition: transform .25s;
+  font-size: 1.5em;
+  color: #8f8f8f;
+  z-index: 1;
+}
+
+.input:not(:placeholder-shown) ~ label,
+.input:focus ~ label
+{
+  transform: translate(5px, -18px) scale(.7);
+  padding-inline: 5px;
+  background-color: #28292d;
+  z-index: 3;
+}
+
+.input:is(:focus, :not(:placeholder-shown)){
+  outline-color: #45f3ff;
+}
+
+.box a{
+ position :relative;
+ top: 25px;
+  font-size: 1em;
+  color: #8f8f8f;
+  text-decoration: none;
+}
+.box a:hover,
+.box a:nth-child(2)
+{
+  color: #45f3ff;
+}
+#signIn{
+  border: none;
+  outline: none;
+  background: #45f3ff;
+  padding: 11px 25px;
+  width: 300px;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#back{
+  width:380px;
+  background-color: transparent;
+  margin-top: 20px;
+  border: none;
+}
+
+#back:hover{
+  color: #45f3ff;
+}

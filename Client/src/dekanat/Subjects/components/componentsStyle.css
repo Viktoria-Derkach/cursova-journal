@@ -1,0 +1,57 @@
+.SubjectsTableDisplay .nameColumns {
+    width: 25%;
+}
+
+.SubjectsTableDisplay .facultyColumns {
+    width: 20%;
+}
+
+.SubjectsTableDisplay .teacherColumns {
+    width: 20%;
+}
+
+.SubjectsTableDisplay .directionColumns {
+    width: 10%;
+}
+
+.SubjectsTableDisplay .courseColumns {
+    width: 5%;
+}
+
+.SubjectsTableDisplay .groupColumns {
+    width: 5%;
+}
+
+.addingSubjectsForm .deleteColumns {
+    width: 3%;
+}
+
+.addingSubjectsForm .nameColumnsInput{
+    width: 30%;
+}
+
+.addingSubjectsForm .teacherColumnsInput{
+    width: 30%;
+}
+
+.addingSubjectsForm .groupColumnsInput{
+    width: 20%;
+}
+
+.addingSubjectsForm .hoursColumnsInput{
+    width: 14%;
+}
+
+#nameSubjectInput, #teacherSubjectInput, #groupSubjectInput, #hoursSubjectInput {
+    width:100%;
+    height: 100%;
+}
+
+#teacherSubjectInput, #groupSubjectInput {
+    margin: 1%;
+    flex: 1;
+    padding: 0 1em;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

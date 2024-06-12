@@ -1,0 +1,39 @@
+.StudentsTableDisplay .nameColumns {
+    width: 35%;
+}
+
+.StudentsTableDisplay .facultyColumns {
+    width: 30%;
+}
+
+.StudentsTableDisplay .groupColumns {
+    width: 10%;
+}
+
+.StudentsTableDisplay .numberColumns {
+    width: 17%;
+}
+
+.addingStudentsForm .deleteColumns {
+    width: 3%;
+}
+
+.addingStudentsForm .nameColumnsInput{
+    width: 44%;
+}
+
+.addingStudentsForm .mailColumnsInput{
+    width: 30%;
+}
+
+.addingStudentsForm .numberColumnsInput{
+    width: 20%;
+}
+
+
+
+#nameStudentInput, #numberStudentInput, #mailStudentInput {
+    width:100%;
+    height: 100%;
+}
+

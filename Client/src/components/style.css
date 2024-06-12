@@ -1,0 +1,19 @@
+.messagesSection{
+    width:45%;
+  }
+  
+  #themeInputSection{
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 1,5rem;
+  }
+  
+  #textInputSection {
+    width: 100%;
+    resize: none;
+  }
+
+  .recipients{
+    flex-direction: column;
+    width: fit-content;
+  }

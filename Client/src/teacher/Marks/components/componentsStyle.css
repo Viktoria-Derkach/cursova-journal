@@ -1,0 +1,25 @@
+.MarksTableDisplay{
+    overflow-x: scroll;
+    margin: 10px 20px;
+}
+
+.MarksTableDisplay .nameColumns{
+    min-width: 300px;
+}
+
+.MarksTableDisplay .pointColumns{
+    min-width: 135px;
+}
+
+.AddingMarks .Table {
+    width: 600px;
+    margin-top:15px;
+}
+
+.Table input{
+    width: 100%;
+}
+
+.Table .pointColumns {
+    width: 135px;
+}

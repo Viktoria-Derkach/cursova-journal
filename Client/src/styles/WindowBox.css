@@ -1,0 +1,187 @@
+.windowBox {
+    display:block;
+    border-radius: 20px;
+    position: relative;
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px 0px;
+    background: #fff;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3), 10px 10px 15px rgba(70, 70, 70, 0.15), inset -10px -10px 15px rgba(255, 255, 255, 0.3), inset 10px 10px 15px rgba(70, 70, 70, 0.15);
+} 
+
+.form-controls {
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    width:100%;
+    height: fit-content;
+    border: none;
+    background-color: transparent;
+    justify-content:space-around;
+}
+
+.form-controls > .form-control {
+    position: relative;
+
+    font-size: 16px;
+    margin-bottom: 0px;
+    width:fit-content;
+    height: fit-content;
+    border: none;
+    background-color: transparent;
+}
+
+.form-control > label {
+    font-weight: bold;
+}
+
+.form-control > select {
+    margin: 1%;
+    flex: 1;
+    padding: 0 1em;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Table {
+  width: 95%;
+  height: fit-content;
+  margin: 10px auto;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.TableHead {
+    border: 1px solid #e1e1e1;
+    padding: 1%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.TableCell {
+    border: 1px solid #e1e1e1;
+    padding: 1%;
+}
+
+.checkBoxColumns {
+  width: 5%;
+  text-align: center;
+}
+
+.buttonControl {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .buttonControl:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .buttonControl:hover {
+    background-color: #2c974b;
+  }
+  
+  .buttonControl:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .buttonControl:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .buttonControl:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+.deleteButton {
+    height: 30px;
+    width: 30px;
+    background-image: url(./delete.svg);
+    background-size: 100%;
+    background-color: transparent;
+}
+
+.addButton {
+  height: 40px;
+  width: 40px;
+  background-image: url(./add.svg);
+  background-size: 100%;
+  background-color: transparent;
+  
+}
+
+.windowBox h2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.windowBox .Info {
+  padding: 30px;
+  font-size: x-large;
+}
+
+.messageBox{
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  margin-top: 30px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #f4f4f4;;
+}
+
+.header{
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.dateSection, .textSection{
+  color: gray;
+}
+
+.textSection {
+  text-align: justify;
+  font-size:larger;
+}
+
+.adsFlex {
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+.adsStudents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:60%;
+}
+
